@@ -9,8 +9,10 @@
 
 video {
 	margin: auto;
-	width: 270px;
+	width: 268px;
 	height: 480;
+	bottom: -20px;
+	position: relative;
 }
 
 .video_box {
@@ -22,17 +24,9 @@ video {
 	position: absolute;
 	min-height: 40px;
 	z-index: auto;
-	bottom: -100px;
-	left: -60px;
+	bottom: -160px;
+	left: -84px;
 	text-align: center;
-}
-
-.details {
-	background-color: yellow;
-	width: 200px;
-	height: 200px;
-	position: relative;
-	margin: auto;
 }
 
 .container {
