@@ -26,3 +26,39 @@ video {
 	left: -60px;
 	text-align: center;
 }
+
+.details {
+	background-color: yellow;
+	width: 200px;
+	height: 200px;
+	position: relative;
+	margin: auto;
+}
+
+.container {
+	width: 60%;
+	margin: auto;
+	overflow: hidden;
+	background-color: gray;
+	top: 100px;
+	position: relative;
+}
+
+.left {
+	width: 50%; 
+	float: left;
+	background-color: red;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	height: 600px;
+}
+
+.right {
+	margin-left: 0px;
+	background-color: blue;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	height: 600px;
+}
