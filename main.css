@@ -39,7 +39,6 @@ video {
 	width: 60%;
 	margin: auto;
 	overflow: hidden;
-	background-color: gray;
 	top: 100px;
 	position: relative;
 }
@@ -47,7 +46,6 @@ video {
 .left {
 	width: 50%; 
 	float: left;
-	background-color: red;
 	justify-content: center;
 	align-items: center;
 	display: flex;
@@ -56,9 +54,28 @@ video {
 
 .right {
 	margin-left: 0px;
-	background-color: blue;
-	justify-content: center;
-	align-items: center;
-	display: flex;
 	height: 600px;
+	top: 120px;
+	position: relative;
+}
+
+.header {
+	text-align: center;
+	font-family: "Avenir Next";
+	font-size: 36px;
+}
+
+.subheader {
+	top: -25px;
+	position: relative;
+	text-align: center;
+	font-family: "Avenir Next";
+	font-size: 18px;
+}
+
+.appstore {
+	width: 125px;
+	height: 42px;
+	margin-left: auto;
+	margin-right: auto;
 }
