@@ -1,0 +1,28 @@
+.center {
+	margin: auto;
+	width: 60%;
+	padding: 10px;
+	background-color: gray;
+	top: 200px;
+	position: relative;
+}
+
+video {
+	margin: auto;
+	width: 270px;
+	height: 480;
+}
+
+.video_box {
+	position: relative;
+	margin: auto;
+}
+
+.video_overlays {
+	position: absolute;
+	min-height: 40px;
+	z-index: auto;
+	bottom: -100px;
+	left: -60px;
+	text-align: center;
+}
