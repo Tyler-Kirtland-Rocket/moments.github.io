@@ -78,4 +78,5 @@ video {
 	height: 42px;
 	margin-left: auto;
 	margin-right: auto;
+	display: block;
 }
